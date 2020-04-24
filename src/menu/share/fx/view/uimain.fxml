@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="647.0" style="-fx-background-color: white;" stylesheets="@../../../../../assets/menu.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="menu.share.fx.controller.UimainController">
+   <children>
+      <Pane prefHeight="448.0" prefWidth="188.0" style="-fx-background-color: #ccccff;" styleClass="panemenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <Blend />
+         </effect>
+         <children>
+            <Label layoutX="46.0" layoutY="14.0" text="your" textFill="#8e8abf">
+               <font>
+                  <Font name="System Italic" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="27.0" text="Card*">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button layoutY="134.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="188.0" style="-fx-background-color: #9999ff; -fx-border-radius: 0;" text="Novo" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutY="401.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="188.0" style="-fx-background-color: transparent; -fx-border-radius: 0;" text="Fechar" textFill="#f80000">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="508.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../img/facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="553.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../img/youtube.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="37.0" layoutX="598.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../img/whats.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="125.0" layoutX="227.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../img/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="360.0" layoutY="116.0" text="Cristiano Mbongo">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="360.0" layoutY="156.0" text="UX Designer" />
+      <Label layoutX="360.0" layoutY="185.0" text="Sex, 24 Abril 2020" textFill="#b5adad" />
+      <Separator layoutX="462.0" layoutY="185.0" orientation="VERTICAL" prefHeight="17.0" prefWidth="3.0" />
+      <Label layoutX="468.0" layoutY="185.0" text="Consistech, SA" textFill="#b5adad" />
+      <Label layoutX="236.0" layoutY="249.0" text="Actividades">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="236.0" layoutY="282.0" prefHeight="3.0" prefWidth="379.0" style="-fx-background-color: #ccc;" />
+      <Pane layoutX="236.0" layoutY="285.0" prefHeight="54.0" prefWidth="379.0" style="-fx-background-color: #eee;">
+         <children>
+            <Label layoutX="14.0" layoutY="6.0" text="Disponibilizar no gitHub">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="25.0" text="24-04-2020" textFill="#c9c3c3" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="337.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/yes.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="236.0" layoutY="339.0" prefHeight="54.0" prefWidth="379.0" style="-fx-background-color: #ddd;">
+         <children>
+            <Label layoutX="14.0" layoutY="6.0" text="Publicar no Facebook">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="25.0" text="24-04-2020" textFill="#c9c3c3" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="335.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/yes.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="236.0" layoutY="393.0" prefHeight="54.0" prefWidth="379.0" style="-fx-background-color: #eee;">
+         <children>
+            <Label layoutX="14.0" layoutY="6.0" text="Receber os feedBacks">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="25.0" text="24-04-2020" textFill="#c9c3c3" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
